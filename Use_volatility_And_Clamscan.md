@@ -56,21 +56,6 @@ Process(V) Name                 Module Base Module Name          Result
 0x821a2da0 csrss.exe            0x07e410000 USER32.dll           OK: module.600.23a2da0.7e410000.dll
 0x821a2da0 csrss.exe            0x075b60000 winsrv.dll           OK: module.600.23a2da0.75b60000.dll
 0x81da5650 winlogon.exe         0x001000000 winlogon.exe         OK: module.624.1fa5650.1000000.dll
-0x81da5650 winlogon.exe         0x07c900000 ntdll.dll            OK: module.624.1fa5650.7c900000.dll
-0x81da5650 winlogon.exe         0x000930000 odbcint.dll          Error: DllBase is paged
-0x81da5650 winlogon.exe         0x077b40000 Apphelp.dll          Error: DllBase is paged
-0x81da5650 winlogon.exe         0x075930000 PROFMAP.dll          Error: DllBase is paged
-0x81da5650 winlogon.exe         0x077f60000 SHLWAPI.dll          Error: DllBase is paged
-0x81da5650 winlogon.exe         0x075970000 MSGINA.dll           OK: module.624.1fa5650.75970000.dll
-0x81da5650 winlogon.exe         0x076e80000 rtutils.dll          Error: DllBase is paged
-0x81da5650 winlogon.exe         0x068000000 rsaenh.dll           Error: DllBase is paged
-0x81da5650 winlogon.exe         0x077bd0000 midimap.dll          OK: module.624.1fa5650.77bd0000.dll
-0x81da5650 winlogon.exe         0x074320000 ODBC32.dll           Error: DllBase is paged
-0x81da5650 winlogon.exe         0x0767a0000 NTDSAPI.dll          OK: module.624.1fa5650.767a0000.dll
-0x81da5650 winlogon.exe         0x075950000 WlNotify.dll         Error: DllBase is paged
-0x81da5650 winlogon.exe         0x076bc0000 REGAPI.dll           Error: DllBase is paged
-0x81da5650 winlogon.exe         0x077dd0000 ADVAPI32.dll         OK: module.624.1fa5650.77dd0000.dll
-0x81da5650 winlogon.exe         0x075690000 fastprox.dll         OK: module.624.1fa5650.75690000.dll
 ```
 Syntax: 
 - --profile=WinXPSP2x86: selecting the profile to scan and here is the WinXPSP2x86 profile
